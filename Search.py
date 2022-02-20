@@ -9,7 +9,7 @@ import urllib.request
 client_id = "WQ2aMcRNmsrSLswiiep4"
 client_secret = "EpRI4HUUfY"
 
-#검색어 입력
+#검색어 입력     url= webkr , kin , blog
 
 encText = urllib.parse.quote("부동산")
 url = "https://openapi.naver.com/v1/search/blog?query=" + encText # json 결과
